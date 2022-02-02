@@ -23,7 +23,7 @@ it("renders correctly", () => {
     }
 
     .c0 .pancake {
-      background: #e27c31;
+      background: #f47107;
       border-radius: 50%;
       width: 32px;
       height: 32px;
@@ -115,7 +115,7 @@ it("renders correctly", () => {
     }
 
     .c1:checked + label .pancake:nth-child(1) {
-      background: #e27c31;
+      background: #f47107;
       box-shadow: 0 2px 0 2px #fbbe7c;
       -webkit-transition-delay: 0.2s;
       transition-delay: 0.2s;
@@ -148,7 +148,7 @@ it("renders correctly", () => {
     .c2 {
       width: 72px;
       height: 40px;
-      background: #31D0AA;
+      background: #f47107;
       box-shadow: inset 0px 2px 2px -1px rgba(74,74,104,0.1);
       display: inline-block;
       border-radius: 50px;
@@ -218,7 +218,7 @@ it("renders correctly scale sm", () => {
     }
 
     .c0 .pancake {
-      background: #e27c31;
+      background: #f47107;
       border-radius: 50%;
       width: 16px;
       height: 16px;
@@ -310,7 +310,7 @@ it("renders correctly scale sm", () => {
     }
 
     .c1:checked + label .pancake:nth-child(1) {
-      background: #e27c31;
+      background: #f47107;
       box-shadow: 0 1px 0 1px #fbbe7c;
       -webkit-transition-delay: 0.2s;
       transition-delay: 0.2s;
@@ -343,7 +343,7 @@ it("renders correctly scale sm", () => {
     .c2 {
       width: 36px;
       height: 20px;
-      background: #31D0AA;
+      background: #f47107;
       box-shadow: inset 0px 2px 2px -1px rgba(74,74,104,0.1);
       display: inline-block;
       border-radius: 50px;

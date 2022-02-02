@@ -61,7 +61,7 @@ export const PancakeStack = styled.div<HandleProps>`
   }
 
   .pancake {
-    background: #e27c31;
+    background: #f47107;
     border-radius: 50%;
     width: ${getScale("pancakeSize")};
     height: ${getScale("pancakeSize")};
@@ -142,7 +142,7 @@ export const PancakeInput = styled.input<InputProps>`
   }
 
   &:checked + label .pancake:nth-child(1) {
-    background: #e27c31;
+    background: #f47107;
     box-shadow: 0 ${getScale("pancakeThickness")} 0 ${getScale("pancakeThickness")} #fbbe7c;
     transition-delay: 0.2s;
   }
